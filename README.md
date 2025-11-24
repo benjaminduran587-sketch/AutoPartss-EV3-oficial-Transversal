@@ -1,2 +1,1 @@
-# AutoPartss-EV3-oficial
-Repositorio, para luego crear fork
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](./LICENSE) para más detalles.
