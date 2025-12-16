@@ -23,6 +23,7 @@ jobs:
         run: |
           coverage run --source='api,frontend' manage.py test api frontend
           coverage xml
+        working-directory: ./backend
 
   sonarcloud:
     needs: tests
