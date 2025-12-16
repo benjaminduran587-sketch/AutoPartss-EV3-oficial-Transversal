@@ -1,0 +1,20 @@
+{
+  "name": "autopartss-ev3-oficial-transversal",
+  "version": "1.0.0",
+  "description": "Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](./LICENSE) para más detalles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminduran587-sketch/AutoPartss-EV3-oficial-Transversal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminduran587-sketch/AutoPartss-EV3-oficial-Transversal/issues"
+  },
+  "homepage": "https://github.com/benjaminduran587-sketch/AutoPartss-EV3-oficial-Transversal#readme"
+}

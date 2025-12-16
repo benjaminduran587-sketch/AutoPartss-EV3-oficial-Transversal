@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_filters',
     'django.contrib.humanize',
+    'api',
+    'frontend',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
