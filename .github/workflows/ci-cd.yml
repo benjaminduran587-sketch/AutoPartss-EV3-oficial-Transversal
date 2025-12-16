@@ -71,5 +71,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Docker Scout
-        run: |
-          docker scout quickview ${{ secrets.DOCKER_USERNAME }}/autoparts-transversal:latest
+        uses: docker/scout-action@v1
+        with:
+          command: quickview
+          image: ${{ secrets.DOCKER_USERNAME }}/autoparts-transversal:latest
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
